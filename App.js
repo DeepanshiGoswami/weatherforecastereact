@@ -7,7 +7,7 @@ const App = () => {
   const [error, setError] = useState('');
   const [backgroundClass, setBackgroundClass] = useState('clear');
 
-  const apiKey = '7a0d17fd4bb7eb1cc04947a80b6c0692';
+  const apiKey = 'write your own api';
 
   const fetchWeather = async () => {
     if (!city) {
